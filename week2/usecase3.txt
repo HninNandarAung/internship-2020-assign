@@ -1,0 +1,72 @@
+Entity of A2Z shop
+ Customer
+ Admin
+ Staff
+ Log-in
+ Category
+ Shoes
+ OrderList
+
+Attributes of customer          
+int id
+String Name
+char Email
+int Phno
+operation of customer
+buyShoes()
+
+Attributes of Admin
+int id
+String name
+String position
+char email
+int salary
+operation of Admin
+manageStaff()
+manageOrder()
+
+Attributes of Staff
+int id
+String name
+String position
+char email
+int salary
+operation of Staff
+manageOrder()
+
+Attributes of Log-in
+String Name
+char password
+operation of Log-in
+checkPermission()
+
+Attributes of Category
+int id
+int price
+char Model
+operation of Category
+addCategory()
+deleteCategory()
+updateCategory()
+
+Attributes of Shoes
+int id
+int price
+char model
+String color
+String madeBy
+Operation of Shoes
+addNew()
+deleteOld()
+updateList()
+
+Attributes of OrderList
+String customerName
+int price
+String customerAddress
+int Phno
+char productModel
+operation of OrderList
+addOrder()
+deleteOrder()
+updateOrder()

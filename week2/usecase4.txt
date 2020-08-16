@@ -1,0 +1,66 @@
+Entity of online food delivery 
+Log-in
+Admin
+Staff
+Customer
+Order
+Food
+Payment
+
+Attributes of Log-in
+String userName
+char password
+operation of Log-in
+checkPermission()
+
+Attributes of Admin
+int id
+String Name
+String email
+String position
+int salary
+operation of Admin
+manageStaff()
+manageOrder()
+
+Attributes of Staff
+int id
+String Name
+String email
+String position
+int salary
+operation of Staff
+manageStaff()
+
+Attributes of Customer
+int id
+String Name
+String adress
+int Phno
+operation of Customer
+orderFood()
+
+Attributes of Order
+String custoName
+String custoAddress
+String FoodName
+int price
+operation of order
+addOrder()
+cancelOrder()
+updateOrder()
+
+Attributes of Food
+int id
+String Name
+int price
+String taste
+operation of Food 
+addNewItem()
+updateFoodItem()
+
+Attributes of Payment
+int Amount
+operation of Payment
+managePayment()
+
